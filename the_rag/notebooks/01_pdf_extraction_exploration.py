@@ -216,7 +216,7 @@ for (text, page), els in real_dupes.items():
 if __name__ == "__main__":
     import sys
     sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from pipeline.pdf_cleaning import resolve_duplicates
+    from the_rag.pipeline.pdf_cleaning import resolve_duplicates
 
     cleaned_elements = resolve_duplicates(elements_hires)
     print(f"\n[resolved] Before: {len(elements_hires)} elements")

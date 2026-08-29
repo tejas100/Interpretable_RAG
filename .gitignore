@@ -1,4 +1,4 @@
-/Doc_corpus
+the_rag/Doc_corpus
 /.venv
 /.ipynb_checkpoints
 cache_toy_models_hires.pkl
@@ -6,3 +6,8 @@ cache_toy_models_hires.pkl
 /notebooks/figures
 cache_rt2_hires.pkl
 __pycache__/
+
+the_rag/notebooks/figures
+the_rag/notebooks/first_cache_rt2_hires.pkl
+
+/.ipynb_checkpoints
